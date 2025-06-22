@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 class TextLayout extends StatelessWidget {
   const TextLayout({super.key});
@@ -10,7 +11,8 @@ class TextLayout extends StatelessWidget {
       children: [
         const Text(
           'Hello, World!',
-          style: TextStyle(fontSize: 16),
+          //style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+          style: TextStyle(fontFamily: 'LeckerliOne', fontSize: 40),
         ),
         Text(
           'Text can wrap without issue',
